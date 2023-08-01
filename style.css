@@ -24,7 +24,7 @@ footer {
 }
 
 
-@media(max-width: 617px){
+@media(max-width: 502px){
 .logo{
   width: 150px;
   height: 30px;
@@ -34,15 +34,39 @@ h1{
 }
 img{
   height: 200px;
-  width: 500px;
+  width: 400px;
 }
 h2{
   margin: 0px;
 }
 p{
+  width: 100%;
   margin: 0px 0px 20px 0px;
+  text-align: justify;
 }
 }
+
+@media(min-width:503px) and (max-width: 617px){
+  .logo{
+    width: 150px;
+    height: 30px;
+  }
+  h1{
+    font-size: 18px;
+  }
+  img{
+    height: 200px;
+    width: 480px;
+  }
+  h2{
+    margin: 0px;
+  }
+  p{
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    text-align: justify;
+  }
+  }
 
 @media(min-width:618px) and (max-width:1000px) {
   .logo{
